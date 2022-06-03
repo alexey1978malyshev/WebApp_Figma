@@ -1,0 +1,53 @@
+*{font-family: lato}
+.header .logo{
+    background-image: url(../img/Logo.png);
+    width: 81px;
+    height: 24px;
+    margin: 30px 100px auto 0;
+    float: left;
+}
+.header{
+    width: 1370px;    
+    margin: 0 auto;
+}
+
+.header .menu ul{
+    width: 850px;
+    margin: 30 auto;
+}
+.header .menu ul li {
+    display: inline-block;
+    float: left;
+    padding: 36px 0;
+}
+.header .auyth .trial {
+    display: inline-block;
+    float: left;
+}
+.header .menu ul li a{
+    line-height: 24px;
+    font-size: 20px;
+    padding: 36px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #292929;
+    }
+.header .menu ul li{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #292929;}
+}
+.header .auth .menu {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #ff00ff;
+}
+
+
