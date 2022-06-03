@@ -13,16 +13,48 @@
 
 .header .menu ul{
     width: 850px;
-    margin: 30 auto;
+    margin: 30px 100px auto 0;
+    float: left;
 }
 .header .menu ul li {
     display: inline-block;
-    float: left;
-    padding: 36px 0;
+    margin: 30 auto;
 }
-.header .auyth .trial {
+
+.header .auth .trial {
+    
     display: inline-block;
-    float: left;
+    margin: 30px 100px auto 0;
+    
+}
+.header .trial{ 
+box-sizing: border-box;
+display: inline-block;
+align-items: center;
+padding: 13px 50px;
+background: #01996D;
+border: 1px solid #01996D;
+border-radius: 4px;
+
+}
+.header .trial > button::content[text]{
+    width: 83px;
+height: 25px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+/* identical to box height, or 125% */
+text-align: center;
+
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 .header .menu ul li a{
     line-height: 24px;
@@ -40,7 +72,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 24px;
 color: #292929;}
-}
+
 .header .auth .menu {
     font-family: 'Lato';
 font-style: normal;
@@ -48,6 +80,14 @@ font-weight: 400;
 font-size: 20px;
 line-height: 24px;
 color: #ff00ff;
+}
+.banner{
+    background-image: url(../img/banner.png);
+    width: 1920px;
+    height: 895px;
+    left: 0px;
+    top: 86px;
+    margin: 0 275 0 275;
 }
 
 
