@@ -21,7 +21,6 @@
 
 .header .menu ul li {
     display: inline-block;
-    margin: 30 auto;
 }
 
 .header .auth .trial {
@@ -42,8 +41,6 @@
 .header .trial > button::content[text]{
     width: 83px;
     height: 25px;
-
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -51,7 +48,6 @@
 
     /* identical to box height, or 125% */
     text-align: center;
-
     color: #FFFFFF;
     /* Inside auto layout */
     flex: none;
@@ -68,7 +64,6 @@
     color: #292929;
 }
 .header .menu ul li{
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -78,9 +73,6 @@
 .header .menu {
     width: 850px;
 }
-
-
-
 .header .auth a {
     font-family: 'Lato';
     font-style: normal;
@@ -115,7 +107,7 @@ button {
     font-size: 20px;
     color: #484848;
     font-family: 'Lato';
-    height: 123;
+    height: 123px;
 }
 .banner .preview h1 {
     font-family: Georgia;
@@ -149,13 +141,174 @@ section.green {
     background-color: #245852;
 }
 .steps {
-    min-height: 500px;
-    width: auto;
-    margin: 169px 275px .50px;
+    min-height: 1430px;
+    width: 1490px;
+    margin: 169px auto;
+    position: relative;
 }
-.footer {
-    height: 654px;
+.steps .preview{
+    position: absolute;
+    max-width: 584px;
+    float: left;
 }
+.steps .preview span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+.steps .description{
+    position: absolute;
+    top: 55px;
+    width: 671px;
+    right: 90px;
+    padding-left: 20px;
+}
+.steps .description span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+/*блок step1*/
+.steps .step1 {
+    top: 245px;
+    width: 390px;
+    height: 932px;
+    margin: auto;
+    position: absolute;
+}
+.steps .step1 .number{
+    background-image: url("../img/01.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 23px;
+    left: 10px;
+    height: 225px;
+    width: 157px;
+}
+.steps .step1 .description_step {
+    top: 167px;
+    max-width: 390px;
+    position: absolute;
+}
+.steps .step1 .title{
+    position: absolute;
+    top: 45px;
+    left:90px;
+    height:auto;
+}
+
+.steps .step1 .description_step span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+}
+.steps .step1 .picture{
+    position: absolute;
+    top: 380px;
+    background: url("../img/step1.jpg"),#C4C4C4;
+    width: 390px;
+    height: 492px;
+    border-radius: 12px;
+
+}
+/*конец блока step1*/
+/*блок step2*/
+
+.steps .step2 {
+    top: 530px;
+    left: 485px;
+    width: 390px;
+    height: 932px;
+    margin: auto;
+    position: absolute;
+}
+.steps .step2 .number{
+    background-image: url("../img/02.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 23px;
+    left: 10px;
+    height: 225px;
+    width: 157px;
+}
+.steps .step2 .description_step {
+    top: 167px;
+    max-width: 390px;
+    position: absolute;
+}
+.steps .step2 .title{
+    position: absolute;
+    top: 45px;
+    left:77px;
+}
+
+.steps .step2 .description_step span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+}
+.steps .step2 .picture{
+    position: absolute;
+    top: 300px;
+    background: url("../img/step2.png"),#C4C4C4;
+    width: 390px;
+    height: 492px;
+    border-radius: 12px;
+
+}
+/*конец блока step2*/
+/*блок step3*/
+.steps .step3 {
+    top: 295px;
+    left: 970px;
+    width: 420px;
+    height: 932px;
+    margin: auto;
+    position: absolute;
+}
+.steps .step3 .number{
+    background-image: url("../img/03.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 23px;
+    left: 10px;
+    height: 225px;
+    width: 157px;
+}
+.steps .step3 .description_step {
+    top: 167px;
+    max-width: 420px;
+    position: absolute;
+}
+.steps .step3 .title{
+    position: absolute;
+    top: 45px;
+    left:125px;
+}
+.steps .step3 .description_step span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+}
+.steps .step3 .picture{
+    position: absolute;
+    top: 300px;
+    background: url("../img/step3.png"),#C4C4C4;
+    width: 390px;
+    height: 492px;
+    border-radius: 12px;
+}
+/*конец блока step3*/
 .video {
     width: 1506px;
     height: 922px;
@@ -180,6 +333,18 @@ h2 {
 section.white h2 {
     color: #01996D;
 }
+section.white h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+
+
+}
+
 .video .preview span.description {
     font-family: 'Lato';
     font-style: normal;
@@ -300,6 +465,7 @@ section.white h2 {
     height: 100%;
     margin: 0 auto;
 }
+
 .footer{
     height: 654px;
     margin-bottom: 168px;
