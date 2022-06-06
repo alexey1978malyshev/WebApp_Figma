@@ -1,0 +1,512 @@
+*{
+    font-family: lato
+}
+.header .logo{
+    background-image: url(../img/Logo.png);
+    width: 81px;
+    height: 24px;
+    margin: 30px 100px auto 0;
+    float: left;
+}
+.header, .reviews {
+    width: 1370px;    
+    margin: 0 auto;
+}
+
+.header .menu ul {
+    width: 850px;
+    margin: 30px 100px auto 0;
+    float: left;
+}
+
+.header .menu ul li {
+    display: inline-block;
+}
+
+.header .auth .trial {
+    display: inline-block;
+    margin: 30px 100px auto 0;
+}
+.header .trial button { 
+    box-sizing: border-box;
+    display: inline-block;
+    align-items: center;
+    padding: 13px 50px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    border-radius: 4px;
+    color: white;
+}
+
+.header .trial > button::content[text]{
+    width: 83px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    /* identical to box height, or 125% */
+    text-align: center;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.header .menu ul li a {
+    line-height: 24px;
+    font-size: 20px;
+    padding: 36px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #292929;
+}
+.header .menu ul li{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+}
+.header .menu {
+    width: 850px;
+}
+.header .auth a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+    text-decoration: none;
+    padding: 0 35px;
+}
+.banner {
+    background-image: url(../img/banner.jpg);
+    width: 1920px;
+    height: 895px;
+    margin: 0 auto;
+    position: relative;
+}
+button {
+    padding: 20px 50px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    color: white;
+    border-radius: 4px;
+    line-height: 25px;
+    font-size: 20px;
+}
+.banner .preview p {
+    padding: 30px 0 18px 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #484848;
+    font-family: 'Lato';
+    height: 123px;
+}
+.banner .preview h1 {
+    font-family: Georgia;
+    color: #01996D;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    margin: 0;
+}
+.banner .preview {
+    position: absolute;
+    top: 175px;
+    left: 275px;
+    width: 440px;
+}
+
+.header {
+    height: 85px;
+}
+.header > div {
+    float: left;
+}
+.header .trial, .header .auth {
+    line-height: 85px;
+}
+.header .trial button, .header .trial .a {
+    white-space: nowrap;
+    overflow: hidden;
+}
+section.green {
+    background-color: #245852;
+}
+.steps {
+    min-height: 1430px;
+    width: 1490px;
+    margin: 169px auto;
+    position: relative;
+}
+.steps .preview{
+    position: absolute;
+    max-width: 584px;
+    float: left;
+}
+.steps .preview span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+.steps .description{
+    position: absolute;
+    top: 55px;
+    width: 671px;
+    right: 90px;
+    padding-left: 20px;
+}
+.steps .description span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+/*блок step1*/
+.steps .step1 {
+    top: 245px;
+    width: 390px;
+    height: 932px;
+    margin: auto;
+    position: absolute;
+}
+.steps .step1 .number{
+    background-image: url("../img/01.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 23px;
+    left: 10px;
+    height: 225px;
+    width: 157px;
+}
+.steps .step1 .description_step {
+    top: 167px;
+    max-width: 390px;
+    position: absolute;
+}
+.steps .step1 .title{
+    position: absolute;
+    top: 45px;
+    left:90px;
+    height:auto;
+}
+
+.steps .step1 .description_step span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+}
+.steps .step1 .picture{
+    position: absolute;
+    top: 380px;
+    background: url("../img/step1.jpg"),#C4C4C4;
+    width: 390px;
+    height: 492px;
+    border-radius: 12px;
+
+}
+/*конец блока step1*/
+/*блок step2*/
+
+.steps .step2 {
+    top: 530px;
+    left: 485px;
+    width: 390px;
+    height: 932px;
+    margin: auto;
+    position: absolute;
+}
+.steps .step2 .number{
+    background-image: url("../img/02.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 23px;
+    left: 10px;
+    height: 225px;
+    width: 157px;
+}
+.steps .step2 .description_step {
+    top: 167px;
+    max-width: 390px;
+    position: absolute;
+}
+.steps .step2 .title{
+    position: absolute;
+    top: 45px;
+    left:77px;
+}
+
+.steps .step2 .description_step span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+}
+.steps .step2 .picture{
+    position: absolute;
+    top: 300px;
+    background: url("../img/step2.png"),#C4C4C4;
+    width: 390px;
+    height: 492px;
+    border-radius: 12px;
+
+}
+/*конец блока step2*/
+/*блок step3*/
+.steps .step3 {
+    top: 295px;
+    left: 970px;
+    width: 420px;
+    height: 932px;
+    margin: auto;
+    position: absolute;
+}
+.steps .step3 .number{
+    background-image: url("../img/03.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 23px;
+    left: 10px;
+    height: 225px;
+    width: 157px;
+}
+.steps .step3 .description_step {
+    top: 167px;
+    max-width: 420px;
+    position: absolute;
+}
+.steps .step3 .title{
+    position: absolute;
+    top: 45px;
+    left:125px;
+}
+.steps .step3 .description_step span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #424242;
+}
+.steps .step3 .picture{
+    position: absolute;
+    top: 300px;
+    background: url("../img/step3.png"),#C4C4C4;
+    width: 390px;
+    height: 492px;
+    border-radius: 12px;
+}
+/*конец блока step3*/
+.video {
+    width: 1506px;
+    height: 922px;
+    margin: 0 auto;
+    position: relative;
+}
+.video .preview {
+    position: absolute;
+    top: 310px;
+    left: 0;
+    max-width: 580px;
+    color: #fff;
+}
+h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+    margin: 0;
+}
+section.white h2 {
+    color: #01996D;
+}
+section.white h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+
+
+}
+
+.video .preview span.description {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    margin-top: 33px;
+    display: block;
+}
+.video .preview button {
+    margin-top: 57px;
+}
+.video .anons {
+    position: absolute;
+    top: 230px;
+    right: 0;
+    background: white;
+    width: 896px;
+    height: 515px;
+    border-radius: 16.3px;
+}
+.video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 16.3px;
+    background-image: url(../img/videoPreview.jpg);
+}
+.video .play {
+    width: 81px;
+    height: 81px;
+    background-image: url(../img/ico/play.png);
+    position: absolute;
+    right: 400px;
+    top: 230px;
+}
+.reviews {
+    height: 936px;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+.reviews .customer {
+    position: relative;
+    height: 648px;
+}
+.reviews .customer-info {
+    position: absolute;
+    width: 296px;
+    height: 294px;
+    filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25)); 
+    z-index: 200;
+    bottom: 0;
+    left: 0;
+    background: white;
+    text-align: center;
+}
+.reviews .customer-info .title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.5px;
+    line-height: 157%;
+    margin-top: 22px;
+}
+.reviews .customer-info hr {
+    width: 110px;
+    display: inline-block;
+}
+.reviews .customer-info .prev-photo {
+    width: 58px;
+    height: 58px;
+    background-image: url(../img/prev-photo.png);
+    margin: 0 auto;
+}
+
+.reviews .customer-info .name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 157%;
+    margin-top: 10px;
+}
+
+.reviews .customer-info .list{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 157%;
+    margin-top: 20px;
+}
+.reviews .customer-info ul {
+    text-align: left;
+    margin-left: 21px;
+}
+.reviews .customer-info ul li {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.6px;
+    line-height: 157%;
+}
+.reviews .customer-photo {
+    position: absolute;
+    width: 638.46px;
+    height: 573.26px;
+    background: rgba(1, 153, 109, 0.2);
+    border-radius: 18px;
+    z-index: 100;
+    float: left;
+    bottom: 75px;
+    left: 60px;
+}
+.reviews .customer-photo .photo {
+    background-image: url(../img/customer.png);
+    width: 429px;
+    z-index: 300;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footer{
+    height: 654px;
+    margin-bottom: 168px;
+    width: 1370px;
+    margin: 0 auto;
+}
+.footer .footer_menu{
+    position: relative;
+    height: 654px;
+    top: 95px;
+}
+.footer .footer_menu .logo{
+
+    background-image: url(../img/footer_logo_Alivio.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 108px;
+    height: 55px;
+}
+.footer .footer_menu .menu{
+    position: absolute;
+    width: 296px;
+    height: 300px;
+    top: 60px;
+    left: -30px;
+
+   }
+.footer .footer_menu .menu a{
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.footer .footer_menu .menu ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer .footer_menu .menu li{
+    padding: 30px;
+    line-height: 30px;
+
+}
